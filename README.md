@@ -1,5 +1,9 @@
 # RTOS Edge Inference — AI Smart-Glasses with On-Device ML
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/N8S3p4ECKG8/maxresdefault.jpg)](https://youtu.be/N8S3p4ECKG8)
+
 A portable, fully offline AI smart-glasses system that performs real-time machine learning inference on the edge. Built with a custom FreeRTOS firmware running on an ESP32-S3 for camera capture and an NVIDIA Jetson for GPU-accelerated gesture classification — all running locally with zero cloud dependency.
 
 ## Overview
