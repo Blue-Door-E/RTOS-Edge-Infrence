@@ -1,0 +1,40 @@
+# Ignore everything by default
+/*
+
+# But allow these:
+!.gitignore
+!README.md
+!AGENTS.md
+!CMakeLists.txt
+!sdkconfig
+!sdkconfig.defaults
+!.github/
+!.github/**
+!main/
+!Jetson Code/
+!ML Notebook/ 
+# Inside main/, ignore nothing (upload everything in there)
+!main/**
+!Jetson Code/**
+!ML Notebook/** 
+
+# Exclude large Docker image archives
+Jetson Code/Docker/*.tar
+Jetson Code/models/
+# Local secrets/config for Jetson runtime
+Jetson Code/Code/config.py
+Jetson Code/Code/Config.py
+Jetson Code/Code/__pycache__
+
+!CI Pipeline Code/
+CI Pipeline Code/images/*
+
+!CI Pipeline Code/
+CI Pipeline Code/images/*
+
+# Local secrets/config for firmware
+main/configs.c
+main/configs.h
+
+Jetson Code/Code/__pycache__/Demo.cpython-310.pyc
+ML Notebook/.ipynb_checkpoints/**
